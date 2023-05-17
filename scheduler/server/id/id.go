@@ -17,9 +17,9 @@ import (
 	"path"
 	"sync"
 
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/etcdutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/typeutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/kv"
+	"github.com/baowj/tinykv/scheduler/pkg/etcdutil"
+	"github.com/baowj/tinykv/scheduler/pkg/typeutil"
+	"github.com/baowj/tinykv/scheduler/server/kv"
 	"github.com/pingcap/log"
 	"github.com/pkg/errors"
 	"go.etcd.io/etcd/clientv3"

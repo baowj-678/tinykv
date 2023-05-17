@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/Connor1996/badger"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/meta"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/util"
-	"github.com/pingcap-incubator/tinykv/kv/util/engine_util"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/eraftpb"
-	rspb "github.com/pingcap-incubator/tinykv/proto/pkg/raft_serverpb"
-	"github.com/pingcap-incubator/tinykv/raft"
+	"github.com/baowj/tinykv/kv/raftstore/meta"
+	"github.com/baowj/tinykv/kv/raftstore/util"
+	"github.com/baowj/tinykv/kv/util/engine_util"
+	"github.com/baowj/tinykv/proto/pkg/eraftpb"
+	rspb "github.com/baowj/tinykv/proto/pkg/raft_serverpb"
+	"github.com/baowj/tinykv/raft"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

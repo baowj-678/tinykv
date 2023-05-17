@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pingcap-incubator/tinykv/log"
-	rspb "github.com/pingcap-incubator/tinykv/proto/pkg/raft_serverpb"
+	"github.com/baowj/tinykv/log"
+	rspb "github.com/baowj/tinykv/proto/pkg/raft_serverpb"
 	"github.com/pingcap/errors"
 )
 

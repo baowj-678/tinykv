@@ -16,15 +16,15 @@ package schedulers
 import (
 	"context"
 
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/mock/mockcluster"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/mock/mockoption"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/testutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/core"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/kv"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/checker"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/operator"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/scheduler/pkg/mock/mockcluster"
+	"github.com/baowj/tinykv/scheduler/pkg/mock/mockoption"
+	"github.com/baowj/tinykv/scheduler/pkg/testutil"
+	"github.com/baowj/tinykv/scheduler/server/core"
+	"github.com/baowj/tinykv/scheduler/server/kv"
+	"github.com/baowj/tinykv/scheduler/server/schedule"
+	"github.com/baowj/tinykv/scheduler/server/schedule/checker"
+	"github.com/baowj/tinykv/scheduler/server/schedule/operator"
 	. "github.com/pingcap/check"
 )
 

@@ -20,15 +20,15 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/logutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/server"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/config"
+	"github.com/baowj/tinykv/scheduler/pkg/logutil"
+	"github.com/baowj/tinykv/scheduler/server"
+	"github.com/baowj/tinykv/scheduler/server/config"
 	"github.com/pingcap/log"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
 	// Register schedulers.
-	_ "github.com/pingcap-incubator/tinykv/scheduler/server/schedulers"
+	_ "github.com/baowj/tinykv/scheduler/server/schedulers"
 )
 
 func main() {

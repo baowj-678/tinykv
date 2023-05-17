@@ -16,9 +16,9 @@ package core
 import (
 	"time"
 
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/schedulerpb"
 	"github.com/gogo/protobuf/proto"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/schedulerpb"
 )
 
 // StoreCreateOption is used to create store.

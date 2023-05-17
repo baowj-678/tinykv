@@ -7,10 +7,10 @@ import (
 	"math"
 	"sort"
 
+	"github.com/baowj/tinykv/kv/coprocessor/rowcodec"
+	"github.com/baowj/tinykv/kv/storage"
+	"github.com/baowj/tinykv/kv/transaction/mvcc"
 	"github.com/juju/errors"
-	"github.com/pingcap-incubator/tinykv/kv/coprocessor/rowcodec"
-	"github.com/pingcap-incubator/tinykv/kv/storage"
-	"github.com/pingcap-incubator/tinykv/kv/transaction/mvcc"
 	"github.com/pingcap/tidb/expression"
 	"github.com/pingcap/tidb/expression/aggregation"
 	"github.com/pingcap/tidb/kv"
@@ -36,7 +36,8 @@ const (
 
 // buildClosureExecutor build a closureExecutor for the DAGRequest.
 // Currently the composition of executors are:
-// 	tableScan|indexScan [selection] [topN | limit | agg]
+//
+//	tableScan|indexScan [selection] [topN | limit | agg]
 func (svr *CopHandler) buildClosureExecutor(dagCtx *dagContext, dagReq *tipb.DAGRequest) (*closureExecutor, error) {
 	ce, err := svr.newClosureExecutor(dagCtx, dagReq)
 	if err != nil {

@@ -3,9 +3,9 @@ package transaction
 import (
 	"testing"
 
-	"github.com/pingcap-incubator/tinykv/kv/transaction/mvcc"
-	"github.com/pingcap-incubator/tinykv/kv/util/engine_util"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/kvrpcpb"
+	"github.com/baowj/tinykv/kv/transaction/mvcc"
+	"github.com/baowj/tinykv/kv/util/engine_util"
+	"github.com/baowj/tinykv/proto/pkg/kvrpcpb"
 	"github.com/stretchr/testify/assert"
 )
 

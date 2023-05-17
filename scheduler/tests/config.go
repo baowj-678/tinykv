@@ -18,8 +18,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/tempurl"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/config"
+	"github.com/baowj/tinykv/scheduler/pkg/tempurl"
+	"github.com/baowj/tinykv/scheduler/server/config"
 )
 
 type serverConfig struct {

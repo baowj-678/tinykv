@@ -1,9 +1,9 @@
 package message
 
 import (
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/snap"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/raft_cmdpb"
+	"github.com/baowj/tinykv/kv/raftstore/snap"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/raft_cmdpb"
 )
 
 type MsgType int64

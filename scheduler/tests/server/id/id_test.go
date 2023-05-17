@@ -18,10 +18,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/pingcap-incubator/tinykv/proto/pkg/schedulerpb"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/testutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/server"
-	"github.com/pingcap-incubator/tinykv/scheduler/tests"
+	"github.com/baowj/tinykv/proto/pkg/schedulerpb"
+	"github.com/baowj/tinykv/scheduler/pkg/testutil"
+	"github.com/baowj/tinykv/scheduler/server"
+	"github.com/baowj/tinykv/scheduler/tests"
 	. "github.com/pingcap/check"
 )
 

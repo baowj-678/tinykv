@@ -14,7 +14,7 @@
 package core
 
 import (
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
 )
 
 // RegionOption is used to select region.

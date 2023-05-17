@@ -16,11 +16,11 @@ package schedulers
 import (
 	"sort"
 
-	"github.com/pingcap-incubator/tinykv/scheduler/server/core"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/filter"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/operator"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/opt"
+	"github.com/baowj/tinykv/scheduler/server/core"
+	"github.com/baowj/tinykv/scheduler/server/schedule"
+	"github.com/baowj/tinykv/scheduler/server/schedule/filter"
+	"github.com/baowj/tinykv/scheduler/server/schedule/operator"
+	"github.com/baowj/tinykv/scheduler/server/schedule/opt"
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 )

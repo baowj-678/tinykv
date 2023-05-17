@@ -4,9 +4,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/message"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/raft_cmdpb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/raft_serverpb"
+	"github.com/baowj/tinykv/kv/raftstore/message"
+	"github.com/baowj/tinykv/proto/pkg/raft_cmdpb"
+	"github.com/baowj/tinykv/proto/pkg/raft_serverpb"
 
 	"github.com/pingcap/errors"
 )

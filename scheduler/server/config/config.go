@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/typeutil"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule"
+	"github.com/baowj/tinykv/scheduler/pkg/typeutil"
+	"github.com/baowj/tinykv/scheduler/server/schedule"
 	"github.com/pingcap/log"
 	"github.com/pkg/errors"
 	"go.etcd.io/etcd/embed"

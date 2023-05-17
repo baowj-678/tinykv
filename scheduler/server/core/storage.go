@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/scheduler/server/kv"
 	"github.com/gogo/protobuf/proto"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/kv"
 	"github.com/pkg/errors"
 	"go.etcd.io/etcd/clientv3"
 )

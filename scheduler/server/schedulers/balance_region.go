@@ -14,10 +14,10 @@
 package schedulers
 
 import (
-	"github.com/pingcap-incubator/tinykv/scheduler/server/core"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/operator"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/opt"
+	"github.com/baowj/tinykv/scheduler/server/core"
+	"github.com/baowj/tinykv/scheduler/server/schedule"
+	"github.com/baowj/tinykv/scheduler/server/schedule/operator"
+	"github.com/baowj/tinykv/scheduler/server/schedule/opt"
 )
 
 func init() {

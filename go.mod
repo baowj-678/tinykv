@@ -1,4 +1,4 @@
-module github.com/pingcap-incubator/tinykv
+module github.com/baowj/tinykv
 
 require (
 	github.com/BurntSushi/toml v0.3.1

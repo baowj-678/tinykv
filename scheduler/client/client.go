@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/schedulerpb"
+	"github.com/baowj/tinykv/scheduler/pkg/grpcutil"
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/schedulerpb"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/grpcutil"
 	"github.com/pingcap/log"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"

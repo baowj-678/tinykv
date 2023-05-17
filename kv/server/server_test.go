@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pingcap-incubator/tinykv/kv/config"
-	"github.com/pingcap-incubator/tinykv/kv/storage"
-	"github.com/pingcap-incubator/tinykv/kv/storage/standalone_storage"
-	"github.com/pingcap-incubator/tinykv/kv/util/engine_util"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/kvrpcpb"
+	"github.com/baowj/tinykv/kv/config"
+	"github.com/baowj/tinykv/kv/storage"
+	"github.com/baowj/tinykv/kv/storage/standalone_storage"
+	"github.com/baowj/tinykv/kv/util/engine_util"
+	"github.com/baowj/tinykv/proto/pkg/kvrpcpb"
 	"github.com/stretchr/testify/assert"
 )
 

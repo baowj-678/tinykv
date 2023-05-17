@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/schedulerpb"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/mock/mockcluster"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/mock/mockhbstream"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/mock/mockoption"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/operator"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/schedulerpb"
+	"github.com/baowj/tinykv/scheduler/pkg/mock/mockcluster"
+	"github.com/baowj/tinykv/scheduler/pkg/mock/mockhbstream"
+	"github.com/baowj/tinykv/scheduler/pkg/mock/mockoption"
+	"github.com/baowj/tinykv/scheduler/server/schedule/operator"
 	. "github.com/pingcap/check"
 )
 

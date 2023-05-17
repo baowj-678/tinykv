@@ -16,10 +16,10 @@ package schedule
 import (
 	"context"
 
-	"github.com/pingcap-incubator/tinykv/scheduler/server/core"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/checker"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/operator"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/schedule/opt"
+	"github.com/baowj/tinykv/scheduler/server/core"
+	"github.com/baowj/tinykv/scheduler/server/schedule/checker"
+	"github.com/baowj/tinykv/scheduler/server/schedule/operator"
+	"github.com/baowj/tinykv/scheduler/server/schedule/opt"
 )
 
 // CheckerController is used to manage all checkers.

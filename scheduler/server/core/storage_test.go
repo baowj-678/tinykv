@@ -16,8 +16,8 @@ package core
 import (
 	"math"
 
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/scheduler/server/kv"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/scheduler/server/kv"
 	. "github.com/pingcap/check"
 )
 

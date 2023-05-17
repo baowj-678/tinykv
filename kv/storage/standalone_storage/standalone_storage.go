@@ -1,9 +1,9 @@
 package standalone_storage
 
 import (
-	"github.com/pingcap-incubator/tinykv/kv/config"
-	"github.com/pingcap-incubator/tinykv/kv/storage"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/kvrpcpb"
+	"github.com/baowj/tinykv/kv/config"
+	"github.com/baowj/tinykv/kv/storage"
+	"github.com/baowj/tinykv/proto/pkg/kvrpcpb"
 )
 
 // StandAloneStorage is an implementation of `Storage` for a single-node TinyKV instance. It does not

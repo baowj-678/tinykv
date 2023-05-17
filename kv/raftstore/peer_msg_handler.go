@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/Connor1996/badger/y"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/message"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/runner"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/snap"
-	"github.com/pingcap-incubator/tinykv/kv/raftstore/util"
-	"github.com/pingcap-incubator/tinykv/log"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/metapb"
-	"github.com/pingcap-incubator/tinykv/proto/pkg/raft_cmdpb"
-	rspb "github.com/pingcap-incubator/tinykv/proto/pkg/raft_serverpb"
-	"github.com/pingcap-incubator/tinykv/scheduler/pkg/btree"
+	"github.com/baowj/tinykv/kv/raftstore/message"
+	"github.com/baowj/tinykv/kv/raftstore/runner"
+	"github.com/baowj/tinykv/kv/raftstore/snap"
+	"github.com/baowj/tinykv/kv/raftstore/util"
+	"github.com/baowj/tinykv/log"
+	"github.com/baowj/tinykv/proto/pkg/metapb"
+	"github.com/baowj/tinykv/proto/pkg/raft_cmdpb"
+	rspb "github.com/baowj/tinykv/proto/pkg/raft_serverpb"
+	"github.com/baowj/tinykv/scheduler/pkg/btree"
 	"github.com/pingcap/errors"
 )
 
@@ -223,9 +223,9 @@ func (d *peerMsgHandler) validateRaftMessage(msg *rspb.RaftMessage) bool {
 	return true
 }
 
-/// Checks if the message is sent to the correct peer.
-///
-/// Returns true means that the message can be dropped silently.
+// / Checks if the message is sent to the correct peer.
+// /
+// / Returns true means that the message can be dropped silently.
 func (d *peerMsgHandler) checkMessage(msg *rspb.RaftMessage) bool {
 	fromEpoch := msg.GetRegionEpoch()
 	isVoteMsg := util.IsVoteMessage(msg.Message)
